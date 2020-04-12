@@ -1,0 +1,168 @@
+#title {
+  background-color: #ff4c68;
+}
+
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+  line-height: 1.5;
+  padding: 0 300px 0 300px;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 0 8%;
+}
+
+.col-lg-6 {}
+
+.dog {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+}
+
+.row {
+  padding: 3.125rem 15%;
+}
+
+.navbar-brand {
+  font-size: 50px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.features {
+  text-align: center;
+}
+
+.icon {
+  font-size: 50px;
+  padding: 20%;
+  color: #ff4c68;
+  margin-bottom: 0;
+}
+
+.icon:hover {
+  color: #46cdcf;
+}
+
+/* testimonials */
+#testimonials {
+  padding: 35px 35px 0 35px;
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+}
+
+.testimonials-image {
+  border-radius: 100%;
+  margin: 5% 1% 5% 5%;
+  width: 15%;
+  border-top: 0;
+}
+
+/* press section */
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 20px;
+}
+
+/* pricing */
+#pricing {
+  background-color: white;
+  text-align: center;
+}
+
+.price {
+  padding: 0;
+}
+
+.space {
+  margin-top: 55px;
+}
+
+@media (max-width: 995px) {
+  .dog {
+    padding: 40px 0 0;
+    transform: rotate(0);
+    width: 60%;
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .container-fluid {
+    padding-bottom: 0;
+  }
+
+  .button-margin {
+    margin-right: 40px;
+  }
+
+  h2 {
+    padding: 0;
+  }
+}
+
+/* cta-section */
+#cta {
+  padding: 30px 90px 90px;
+  color: #fff;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  width: 600px;
+  margin: auto;
+}
+
+@media (max-width: 995px) {
+  .cta-heading {
+    width: 400px;
+  }
+}
+
+#footer {
+  text-align: center;
+}
+
+.cta-space {
+  margin: 40px 10px 0;
+}
+
+.footer-space {
+  margin: 10px;
+}
